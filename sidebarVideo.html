@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sidebar.css">
+    <link
+    rel="icon"
+    type="image"
+    href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAI4AAACOCAMAAADQI8A6AAAAZlBMVEX/AAD/////fn7/X1//Vlb/9fX/SUn/3Nz/6Oj/HBz/+fn/7u7/qqr/zs7/8fH/cXH/Zmb/UVH/vb3/sLD/bW3/QkL/l5f/4+P/MDD/JSX/i4v/hYX/NTX/1NT/trb/W1v/Dw//xMRLyT8jAAACw0lEQVR4nO3b6VarMBQF4NDWggyFMilDB9//JW+wvUuSwtGGSPa96+x/LlfjZwlkOggPKsI1QA1zqDCHCnOoMIcKc6gwhwpzqDCHCnOoMIcKc6hY4IQv94RrcEKZQxRFpyQ/F3Fct12aZtvPXHZDjvt7jp8/Xm6/y9K0a+s4Ls55cpIfPwztmHPCIMkL+bfLY9VfhYVc++pYSmGRJ8Gsa4oT+XHWN40VxCSsafos9qMfcfy2/y2Hmr71v+X45TqWW0odpHHyZk2NEE1Ocep1MUPqeU63vkaIbo5zdqER4jzNObnRCHGa5OxccXZTnNyVRoh8grPqA0dN+cgJ3GmECB44jm6rW84PnNQlJ9U5YeWSU4Ua5+3dJef9TeMkLjVCJBqncMspNI6DsXycWuM4fAgOKTXO3i1nr3HcaoSA5jgdsYYECsdg6lVZXf+cFI7BU7ALbE6tE4UTP9/AxuqiLFY4Bk/BzfC5D1vrslrhbAw58nu9WuFsLHG8qLMBUjkGk6+/HNmFtss5qcIxaPCLI2/MxWPMdswJL8s43ovBrankEtrkSFALxZHzW4NGpjkHg2v/wJFdyHz+vz+MOJFBOxMcOcc1HciqaMQJDFqZ5HiRYRfqgxHHZFkzzZEgo4HsvrSxz5FdyOC7Vji+wUg4z5Fd6Ol/r/HHnFe7HC9sn2zx9Vc58vpnUBzZ6JE5/8TFWtiVsW50sMcg2CABNoSCTTDApl9gk9P/bepud2EDtuxDWxSDbRmAbaiAbTeBbcaBbVWCbeSCbXODHQKgccAOkMCO18AOH8GOZsEOrsGO9cGKHsBKQtAKZsDKicCKrdBK0cAK9dDKGMGKPD1v2TLbMK03xwErEEYrn0YrLvfASu+HQL2YcA/OaxuaC+Kllp9n3Vd+Vg1zqDCHCnOoMIcKc6gwhwpzqDCHCnOoMIcKc6iAcf4AQflIBcl6rnoAAAAASUVORK5CYII="
+    href=""
+    />
+    <title>Youtube</title>
+   
+</head>
+<body>
+   <!-- menubar -->
+   <div class="menubar">
+    <div ><img id="toggle-btn" src="hamburger.png"/></div>
+    <img  id="logo-icon"  src="youtube.logo.png">
+
+    
+    <div class="search-or-microphone">
+      <div class="search-wrapper">
+      <input type="search" id="query"  placeholder="Search" >
+      <img id="id1" onclick="search()" src="search-interface-symbol.png" alt="">
+  </div>
+      <!-- <img id="id1" onclick="search()" src="search.png" alt=""> -->
+      <img id="id3" onclick="voice()" src="microphone.png" alt="">
+  </div>
+      <img id="id2" src="megan.png" alt="">
+    
+  </div>
+
+<!-- sidebar -->
+<div class="sidebar" id="sidebar">
+  <!-- <div class="scrollbox"> -->
+   
+  
+  <a href="sidebar.html"><span><img src="home.png" style="height: 15px; margin-right:5px;"></span>Home</a>
+
+  <a href="https://www.youtube.com/feed/subscriptions"><span><img src="subscriprion.png" style="height: 15px; margin-right:5px;"></span>Subscriptions</a>
+  <a href="https://www.youtube.com/playlist?list=LL"><span><img src="like.png" style="height: 15px; margin-right:5px;"></span>Liked videos</a>
+  <a href="https://www.youtube.com/feed/history"><span><img src="history.png" style="height: 15px; margin-right:5px;"></span>History</a>
+  <div class="line"></div>
+  <h5>Explore</h5>
+  <a href="https://www.youtube.com/feed/trending?bp=6gQJRkVleHBsb3Jl"><span><img src="explore.png" style="height: 15px; margin-right:5px;"></span>Trending</a>
+  <a href="https://www.youtube.com/channel/UCkYQyvc_i9hXEo4xic9Hh2g"><span><img src="shopping-bag.png" style="height: 15px; margin-right:5px;"></span>Shopping</a>
+  <a href="https://www.youtube.com/channel/UC-9-kyTW8ZkZNDHQJ6FgpwQ"><span><img src="musical-note.png" style="height: 15px; margin-right:5px;"></span>Music</a>
+  <a href="https://www.youtube.com/feed/storefront?bp=ogUCKAI%3D"><span><img src="clapper.png" style="height: 15px; margin-right:5px;"></span>films</a>
+  <a href="https://www.youtube.com/channel/UC4R8DWoMoI7CAwX8_LjQHig"><span><img src="live.png" style="height: 15px; margin-right:5px;"></span>Live</a>
+  <a href="https://www.youtube.com/channel/UCYfdidRxbB8Qhf0Nx7ioOYw"><span><img src="newspaper.png" style="height: 15px; margin-right:5px;"></span>News</a>
+  <a href="https://www.youtube.com/channel/UCEgdi0XIXXZ-qJOFPf4JSKw"><span><img src="trophy.png" style="height: 15px; margin-right:5px;"></span>Sports</a>
+  <h5>More from Youtube</h5>
+  <a href="https://www.youtube.com/premium"><span><img src="play.png" style="height: 15px; margin-right:5px;"></span>Youtube premium</a>
+  <a href="https://studio.youtube.com/"><span><img src="studio.png" style="height: 15px; margin-right:5px;"></span>Youtube studio</a>
+  <a href="https://music.youtube.com/"><span><img src="youtube music.png" style="height: 15px; margin-right:5px;"></span>Youtube music</a>
+  <a href="https://www.youtubekids.com/?source=youtube_web"><span><img src="youtube-kids.png" style="height: 15px; margin-right:5px;"></span>youtube kids</a>
+
+ <!-- </div>  -->
+</div>
+
+
+<style>
+    .play{
+        height:600px;
+        width: 95%;
+        margin: auto;
+       position: relative;
+       top: 8vh;
+        padding-bottom:9vh ;
+    }
+
+
+    @media (max-width:600px){
+        .play{
+            height:34.5vh;
+            width: 100%;
+            margin: auto;  
+            
+        }
+       
+    }
+</style>
+   
+    <div class="play"></div> 
+    <div class="containerr" position="relative"top="100px"></div>
+    
+    <footer class="footer">
+  
+      <a href="sidebar.html"><span><img src="home.png" alt=""/></span><span>Home</span></a>
+      <a><span><img id="id4" onclick="voice()" src="microphone.png" alt=""/></span><span>microphone</span></a>
+      <a href="https://www.youtube.com/feed/subscriptions"><span><img src="subscribe.png" alt=""/></span><span>Subscriptions</span></a>
+      <a href="https://www.youtube.com/feed/trending?bp=6gQJRkVleHBsb3Jl"><span><img src="trending-topic.png" alt=""/></span><span>Explore</span></a>
+  
+ </footer>
+
+<script>
+
+let API ="AIzaSyChIJFgED1diOgVOT5Bqe5woJdW8zdMmvs";
+async function mostpopular(){
+  let res =await fetch(`https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=50&chart=mostPopular&regionCode=IN&key=${API}`);
+
+
+  let data =await res.json();
+  console.log(data);
+  // Data(data.items);
+  append(data.items);
+}
+
+mostpopular();
+
+
+function append(data){
+  let box = document.querySelector(".containerr");
+  box.innerHTML =null;
+  data.forEach(({snippet, id:{videoId} })=> {
+    let img =snippet.thumbnails.high.url;
+    let title =snippet.title;
+    let channelTitle =snippet.channelTitle;
+    let imgg=snippet.thumbnails.default.url;
+    console.log(imgg);
+
+    let div =document.createElement("div");
+    let image =document.createElement("img");
+    image.src=img;
+    let name =document.createElement("p");
+    name.innerText =title;
+    let div2=document.createElement("div2");
+    let icon =document.createElement("i");
+    icon.innerHTML=`<img src="${imgg}" alt=""/>`;
+    let Cname =document.createElement("p");
+    Cname.innerText=channelTitle;
+    div2.append(icon,Cname);
+    div.append(image,name,div2);
+    box.append(div);
+
+    let data ={snippet,videoId};
+
+    div.addEventListener("click",function(){
+      localStorage.setItem("video",JSON.stringify(data));
+      window.location.href="sidebarVideo.html";
+    });
+});
+}
+
+
+
+async function search(){
+  let query =document.getElementById("query").value;
+  let res = await fetch(`https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=25&q=${query}&key=${API}`);
+  let data = await res.json();
+  append(data.items);
+}
+function voice(){
+  var recognition = new webkitSpeechRecognition();
+  recognition.lang="en-GB";
+  recognition.onresult= function(event){
+    console.log(event);
+    document.getElementById("query").value = event.results[0][0].transcript;
+  }
+  recognition.start();
+}
+
+
+// sidebar//
+
+const sidebar = document.getElementById('sidebar');
+const toggleBtn = document.getElementById('toggle-btn');
+const main =document.getElementById('main');
+
+toggleBtn.addEventListener('click', () => {
+  if (sidebar.style.left === '-250px') {
+    sidebar.style.left = '0px';
+    
+      
+
+  } else {
+    sidebar.style.left = '-250px';
+  
+   
+    
+    
+  }
+});
+</script>
+
+
+    <script src="sidebarVideo.js"></script>
+</body>
+</html>
